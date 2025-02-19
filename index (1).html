@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Tiket - Cigarettes After Sex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header img {
+            display: block;
+            margin: 20px auto;
+            width: 50%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .nav a:hover {
+            background-color: #444;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        .ticket-form {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+            width: 100%;
+            max-width: 400px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+        .form-group label {
+            margin-bottom: 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #d32f2f;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        X's World Tour 2025 - Cigarettes After Sex
+        <img src="https://assets.onecompiler.app/439fq29zs/439fqj4pm/Snapinsta.app_430835539_1645518679589086_8906911106508584510_n_1080.jpg" alt="Cigarettes After Sex Concert">
+    </div>
+    <div class="nav">
+        <a href="#jadwal">Jadwal</a>
+        <a href="#pesan">Pesan Tiket</a>
+        <a href="#kontak">Kontak</a>
+    </div>
+    <div class="container" id="pesan">
+        <h2>Pesan Tiket Sekarang</h2>
+        <div class="ticket-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="jumlah">Jumlah Tiket</label>
+                    <select id="jumlah" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="stage">Pilih Stage</label>
+                    <select id="stage" required>
+                        <option value="Stage 1">Stage 1 - Rp 800.000</option>
+                        <option value="Stage 2">Stage 2 - Rp 1.200.000</option>
+                        <option value="Stage 3">Stage 3 - Rp 1.800.000</option>
+                    </select>
+                </div>
+                <button type="submit">Pesan Tiket</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
